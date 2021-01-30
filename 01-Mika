@@ -1,0 +1,5 @@
+# Mika
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
